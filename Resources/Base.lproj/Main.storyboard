@@ -90,7 +90,7 @@
         <!--Classification View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ClassificationViewController" customModule="ObjectDetector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ClassificationViewController" customModule="CoreMLDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,7 +134,7 @@
         <!--Sentiment Analysis View Controller-->
         <scene sceneID="Y1R-Ee-n4O">
             <objects>
-                <viewController id="gQF-Qz-8Hq" customClass="SentimentAnalysisViewController" customModule="ObjectDetector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gQF-Qz-8Hq" customClass="SentimentAnalysisViewController" customModule="CoreMLDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SeQ-sw-sfh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,7 +187,7 @@
         <!--Face Detection View Controller-->
         <scene sceneID="Tej-KM-as3">
             <objects>
-                <viewController id="Xj8-B8-GYd" customClass="FaceDetectionViewController" customModule="ObjectDetector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Xj8-B8-GYd" customClass="FaceDetectionViewController" customModule="CoreMLDemos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zgU-oC-uQJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

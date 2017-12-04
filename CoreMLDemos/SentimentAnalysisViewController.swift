@@ -1,6 +1,6 @@
 //
 //  SentimentAnalysisViewController.swift
-//  ObjectDetector
+//  CoreMLDemos
 //
 //  Created by Arthur Emídio Teixeira Ferreira on 12/2/17.
 //  Copyright © 2017 Arthur Emídio Teixeira Ferreira. All rights reserved.

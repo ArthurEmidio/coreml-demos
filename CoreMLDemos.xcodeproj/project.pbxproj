@@ -26,7 +26,7 @@
 		8E9CBAE41FD33AA500D779AB /* SentimentPolarity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentPolarity.mlmodel; sourceTree = "<group>"; };
 		8E9CBAE61FD33ABD00D779AB /* SentimentAnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalysisViewController.swift; sourceTree = "<group>"; };
 		8EA3C1E91FCB9C8B0086FAE3 /* core-ml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "core-ml.png"; sourceTree = "<group>"; };
-		8EA74A021FC9DAE100562DFF /* ObjectDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA74A021FC9DAE100562DFF /* CoreMLDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA74A051FC9DAE100562DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EA74A071FC9DAE100562DFF /* ClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationViewController.swift; sourceTree = "<group>"; };
 		8EA74A0A1FC9DAE100562DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		8EA749F91FC9DAE100562DFF = {
 			isa = PBXGroup;
 			children = (
-				8EA74A041FC9DAE100562DFF /* ObjectDetector */,
+				8EA74A041FC9DAE100562DFF /* CoreMLDemos */,
 				8EA74A171FC9DB4200562DFF /* Resources */,
 				8EA74A031FC9DAE100562DFF /* Products */,
 			);
@@ -59,12 +59,12 @@
 		8EA74A031FC9DAE100562DFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EA74A021FC9DAE100562DFF /* ObjectDetector.app */,
+				8EA74A021FC9DAE100562DFF /* CoreMLDemos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EA74A041FC9DAE100562DFF /* ObjectDetector */ = {
+		8EA74A041FC9DAE100562DFF /* CoreMLDemos */ = {
 			isa = PBXGroup;
 			children = (
 				8EA74A051FC9DAE100562DFF /* AppDelegate.swift */,
@@ -74,7 +74,7 @@
 				8E9CBAE61FD33ABD00D779AB /* SentimentAnalysisViewController.swift */,
 				8EA74A111FC9DAE100562DFF /* Info.plist */,
 			);
-			path = ObjectDetector;
+			path = CoreMLDemos;
 			sourceTree = "<group>";
 		};
 		8EA74A171FC9DB4200562DFF /* Resources */ = {
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EA74A011FC9DAE100562DFF /* ObjectDetector */ = {
+		8EA74A011FC9DAE100562DFF /* CoreMLDemos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA74A141FC9DAE100562DFF /* Build configuration list for PBXNativeTarget "ObjectDetector" */;
+			buildConfigurationList = 8EA74A141FC9DAE100562DFF /* Build configuration list for PBXNativeTarget "CoreMLDemos" */;
 			buildPhases = (
 				8EA749FE1FC9DAE100562DFF /* Sources */,
 				8EA749FF1FC9DAE100562DFF /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = ObjectDetector;
-			productName = ObjectDetector;
-			productReference = 8EA74A021FC9DAE100562DFF /* ObjectDetector.app */;
+			name = CoreMLDemos;
+			productName = CoreMLDemos;
+			productReference = 8EA74A021FC9DAE100562DFF /* CoreMLDemos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8EA749FD1FC9DAE100562DFF /* Build configuration list for PBXProject "ObjectDetector" */;
+			buildConfigurationList = 8EA749FD1FC9DAE100562DFF /* Build configuration list for PBXProject "CoreMLDemos" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EA74A011FC9DAE100562DFF /* ObjectDetector */,
+				8EA74A011FC9DAE100562DFF /* CoreMLDemos */,
 			);
 		};
 /* End PBXProject section */
@@ -243,9 +243,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				INFOPLIST_FILE = CoreMLDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CoreMLDemos;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -294,8 +296,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				INFOPLIST_FILE = CoreMLDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CoreMLDemos;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -308,9 +312,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KA5QS9L8EL;
-				INFOPLIST_FILE = ObjectDetector/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreMLDemos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arthuremidio.ObjectDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthuremidio.CoreMLDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,9 +327,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KA5QS9L8EL;
-				INFOPLIST_FILE = ObjectDetector/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreMLDemos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arthuremidio.ObjectDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arthuremidio.CoreMLDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EA749FD1FC9DAE100562DFF /* Build configuration list for PBXProject "ObjectDetector" */ = {
+		8EA749FD1FC9DAE100562DFF /* Build configuration list for PBXProject "CoreMLDemos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA74A121FC9DAE100562DFF /* Debug */,
@@ -344,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA74A141FC9DAE100562DFF /* Build configuration list for PBXNativeTarget "ObjectDetector" */ = {
+		8EA74A141FC9DAE100562DFF /* Build configuration list for PBXNativeTarget "CoreMLDemos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8EA74A151FC9DAE100562DFF /* Debug */,
