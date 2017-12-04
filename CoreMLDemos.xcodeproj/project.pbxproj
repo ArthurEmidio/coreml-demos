@@ -51,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				8EA74A041FC9DAE100562DFF /* CoreMLDemos */,
-				8EA74A171FC9DB4200562DFF /* Resources */,
 				8EA74A031FC9DAE100562DFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +66,7 @@
 		8EA74A041FC9DAE100562DFF /* CoreMLDemos */ = {
 			isa = PBXGroup;
 			children = (
+				8EA74A171FC9DB4200562DFF /* Resources */,
 				8EA74A051FC9DAE100562DFF /* AppDelegate.swift */,
 				8E39F8CE1FCA71B8002FB1FC /* CameraCapture.swift */,
 				8E39F8D01FCB4542002FB1FC /* FaceDetectionViewController.swift */,
