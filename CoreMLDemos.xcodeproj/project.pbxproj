@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E05BEB91FD6488C00B328FD /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E05BEB81FD6488C00B328FD /* Inceptionv3.mlmodel */; };
 		8E39F8CF1FCA71B8002FB1FC /* CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E39F8CE1FCA71B8002FB1FC /* CameraCapture.swift */; };
 		8E39F8D11FCB4542002FB1FC /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E39F8D01FCB4542002FB1FC /* FaceDetectionViewController.swift */; };
 		8E9CBAE51FD33AA500D779AB /* SentimentPolarity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E9CBAE41FD33AA500D779AB /* SentimentPolarity.mlmodel */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E05BEB81FD6488C00B328FD /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		8E39F8CE1FCA71B8002FB1FC /* CameraCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCapture.swift; sourceTree = "<group>"; };
 		8E39F8D01FCB4542002FB1FC /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
 		8E9CBAE41FD33AA500D779AB /* SentimentPolarity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentPolarity.mlmodel; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				8EA74A0E1FC9DAE100562DFF /* LaunchScreen.storyboard */,
 				8EA74A181FC9DB8C00562DFF /* SqueezeNet.mlmodel */,
 				8E9CBAE41FD33AA500D779AB /* SentimentPolarity.mlmodel */,
-				8E05BEB81FD6488C00B328FD /* Inceptionv3.mlmodel */,
 				8EA74A0C1FC9DAE100562DFF /* Assets.xcassets */,
 				8EA3C1E91FCB9C8B0086FAE3 /* core-ml.png */,
 			);
@@ -171,7 +168,6 @@
 				8EA74A191FC9DB8C00562DFF /* SqueezeNet.mlmodel in Sources */,
 				8E9CBAE51FD33AA500D779AB /* SentimentPolarity.mlmodel in Sources */,
 				8E39F8D11FCB4542002FB1FC /* FaceDetectionViewController.swift in Sources */,
-				8E05BEB91FD6488C00B328FD /* Inceptionv3.mlmodel in Sources */,
 				8E9CBAE71FD33ABD00D779AB /* SentimentAnalysisViewController.swift in Sources */,
 				8EA74A061FC9DAE100562DFF /* AppDelegate.swift in Sources */,
 			);
